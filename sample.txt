@@ -1,1 +1,10 @@
-This is a sample file for testing.
+def test_add():
+    assert add(1, 2) == 3
+    assert add(-1, -1) == -2
+    assert add(0, 0) == 0
+
+def test_divide():
+    assert divide(6, 2) == 3
+    assert divide(-6, -2) == 3
+    with pytest.raises(ValueError):
+        divide(1, 0)
