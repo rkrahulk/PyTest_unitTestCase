@@ -1,1 +1,1 @@
-abcd
+This is a sample file for testing.
